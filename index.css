@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background: white;
+    margin-top: 0px;
+    width: 100%;
+}
+.links{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 30
+    px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: chartreuse;
+    text-shadow: 2px red;
+}
+html{
+    scroll-behavior: smooth;
+}
